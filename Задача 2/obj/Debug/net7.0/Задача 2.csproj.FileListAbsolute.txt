@@ -1,0 +1,15 @@
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/bin/Debug/net7.0/Задача 2
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/bin/Debug/net7.0/Задача 2.deps.json
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/bin/Debug/net7.0/Задача 2.runtimeconfig.json
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/bin/Debug/net7.0/Задача 2.dll
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/bin/Debug/net7.0/Задача 2.pdb
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.csproj.AssemblyReference.cache
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.AssemblyInfoInputs.cache
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.AssemblyInfo.cs
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.csproj.CoreCompileInputs.cache
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.dll
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/refint/Задача 2.dll
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.pdb
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/Задача 2.genruntimeconfig.cache
+/Users/Alexander/Desktop/Учеба/GB/Задача 2/obj/Debug/net7.0/ref/Задача 2.dll
