@@ -1,5 +1,5 @@
 ﻿// Задача No11. Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
-Console.clear;
+
 
 Console.WriteLine("Введите трехзначное число ");
 
@@ -11,5 +11,5 @@ int a2 = num % 10;
 
 int result = a1 * 10 +a2;
 
-Console.WriteLine(${result});
+Console.WriteLine({num} {result});
 
