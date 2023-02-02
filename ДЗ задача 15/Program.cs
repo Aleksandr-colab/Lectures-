@@ -14,7 +14,7 @@ if (Day < The_days_of_the_week.Length)
 {
     if (Num <= 5)
     {
-        Console.WriteLine($"Дак, это {The_days_of_the_week[Day]} и это рабочий день");
+        Console.WriteLine($"Это {The_days_of_the_week[Day]} и это рабочий день");
     }
     else
     {
