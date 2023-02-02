@@ -2,13 +2,14 @@
 
 
 Console.Clear();
+
 Console.WriteLine("Введите число");
-int allNumb = int.Parse(Console.ReadLine()!);
-int count = 2;
-while (count <= allNumb)
+int N = int.Parse(Console.ReadLine()!);
+int k = 2;
+while (k <= N)
 {
     
-        Console.Write($"{count} ");
+        Console.Write(k + ", " );
     
-    count += 2;
+    k += 2;
 }

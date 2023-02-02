@@ -2,10 +2,10 @@
 Console.Clear();
 
 Console.WriteLine("Введите число");
-int even = int.Parse(Console.ReadLine()!);
+int num = int.Parse(Console.ReadLine()!);
 
 
-if (even % 2 != 0)
+if (num % 2 != 0)
 {
     Console.WriteLine("Данное число не четное");
 }
