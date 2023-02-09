@@ -3,8 +3,24 @@
 
 Console.Clear();
 Console.Write("Введите номер четверти: ");
-int xn = int.Parse(Console.ReadLine()!);
-int yn = int.Parse(Console.ReadLine()!);
-
-Console.Write("Введите Y: ");
-int Y = int.Parse(Console.ReadLine()!);
+int four = Convert.ToInt32(Console.ReadLine());
+if (four ==1)
+{
+    Console.Write("X > 0 и Y > 0");
+}
+else if (four == 2)
+{
+    Console.Write("X < 0 и Y > 0");
+}
+else if (four == 3)
+{
+    Console.Write("X < 0 и Y < 0");
+}
+else if (four == 4)
+{
+    Console.Write("X > 0 и Y < 0");
+}
+else
+{
+    Console.WriteLine("такой четверти нет");
+}
