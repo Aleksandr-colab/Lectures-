@@ -23,10 +23,6 @@ int Result(int[] inArray)
     return count;
 }
 
-/*{     int count = 0;
-foreach (int elent in inArray)
- {         if (elent % 2 == 0)
-{             count++;         }     }     return count; }*/
 int[] array = GetArray(10, 100, 999);
 Console.WriteLine(String.Join(", ", array));
 int count = Result(array);
