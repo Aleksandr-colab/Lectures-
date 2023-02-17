@@ -5,37 +5,37 @@
 Console.Clear();
 
 
-int[] arr = { 1, 5, 4, 3, 2, 6, 7, 1, 1};
-
-void PrintArray(int[] array)
-{
-    int count = array.Length;
-
-    for (int i = 0; i < count; i++)
-    {
-        Console.Write($"{array[i]}");
-    }
-    Console.WriteLine();
-}
-
-void SelectionSort(int[]array)
-{
-    for (int i = 0; i < array.Length - 1; i++)
-    {
-        int minPosition = 1;
-
-        for (int j = i + 1; j < array.Length ; j++)
         {
-            if(array[j] < array[minPosition]) minPosition = j;
+            Console.WriteLine("Сколько чисел будем сортировать?");
+            int N = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите числа для сортировки:");
+            int[] mas=new int[N];
+            for (int i = 0; i < mas.Length; i++)
+            {
+                mas[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            BubbleSort(mas);
+            Console.WriteLine("После сортировки:");
+            for (int i = 0; i < mas.Length; i++)
+            {
+                Console.WriteLine(mas[i]);
+            }
+            Console.ReadLine();
         }
-
-        int temporary = array[1];
-        array[i] = array[minPosition];
-        array[minPosition] = temporary;
-
-    }
-}
-PrintArray(arr);
-SelectionSort(arr);
-
-PrintArray(arr);
+static int[] BubbleSort(int[] mas)
+        {
+            int temp;
+            for (int i = 0; i < mas.Length; i++)
+            {
+                for (int j = i + 1; j < mas.Length; j++)
+                {
+                    if  (mas[i] < mas[j])
+                    {
+                        temp = mas[i];
+                        mas[i] = mas[j];
+                        mas[j] = temp;
+                    }                   
+                }            
+            }
+            return mas;
+        }
